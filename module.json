@@ -1,0 +1,15 @@
+{
+  "name": "VK Integration",
+  "alias": "vkintegration",
+  "description": "Integrate VK Messages with FreeScout.",
+  "version": "1.0.0-beta.1",
+  "keywords": [],
+  "active": 1,
+  "order": 0,
+  "providers": [
+    "Modules\\VKIntegration\\Providers\\VKIntegrationServiceProvider"
+  ],
+  "aliases": {},
+  "files": ["start.php"],
+  "requires": []
+}

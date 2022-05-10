@@ -1,0 +1,29 @@
+{
+  "name": "freescout-helpdesk/vkintegration",
+  "description": "",
+  "authors": [
+    {
+      "name": "FreeScout",
+      "email": "freescout@example.org"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Modules\\VKIntegration\\Providers\\VKIntegrationServiceProvider"
+      ],
+      "aliases": {}
+    }
+  },
+  "require": {
+    "vkcom/vk-php-sdk": "5.101.0"
+  },
+  "replace": {
+    "laravel/framework": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\VKIntegration\\": ""
+    }
+  }
+}
